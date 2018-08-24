@@ -5,18 +5,23 @@ body {
 
 .background {
   background-image: url("../images/the-flatiron-building.png");
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-origin: padding-box;
   color: white;
 }
 
-ul {
-  list-style: none;
+.background a {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-a {
+.footer a {
   color: white;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
   font-weight: bold;
 }
 
@@ -24,19 +29,24 @@ h1 {
   font-size: 70px;
 }
 
-h2 {
+#process h2 {
   font-size: 32px;
+}
+
+.background h2 {
+  font-size: 23px;
 }
 
 h3 {
   font-size: 23px;
 }
 
-p {
+#process p,
+.informations p {
   font-size: 14px;
 }
 
-#footer {
+.footer {
   text-align: left;
   background-color: dimgray;
   font-size: 11px;
